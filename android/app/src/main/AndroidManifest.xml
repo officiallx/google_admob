@@ -4,9 +4,13 @@
         android:label="google_admob"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-       <meta-data
-           android:name="com.google.android.gms.ads.APPLICATION_ID"
-           android:value="ca-app-pub-6215194926274787~1003530606"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6215194926274787~1003530606"/>
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDgIY_Sb0IC0Q23ZGu8bxWeqyC7hN9BOn0"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
